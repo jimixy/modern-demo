@@ -1,13 +1,17 @@
 {
   "extends": "@modern-js/tsconfig/base",
   "compilerOptions": {
+    "target": "ESNext",
+    "lib": ["ES2015", "DOM"],
+    "moduleResolution": "node",
     "declaration": false,
     "jsx": "preserve",
     "baseUrl": "./",
     "paths": {
       "@/*": ["./src/*"],
-      "@shared/*": ["./shared/*"]
+      "@shared/*": ["./shared/*"],
+      "@api/*": ["./api/*"]
     }
   },
-  "include": ["src", "shared", "config"]
+  "include": ["src", "shared", "config", "api"]
 }
