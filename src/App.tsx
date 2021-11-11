@@ -15,7 +15,7 @@ const App = () => (
             />
           </div>
           <p className="description">
-            Get started by editing <code className="code">src/App.tsx</code>
+            Get started by editing <code className="code">3333</code>
           </p>
           <div className="grid">
             <a href="https://modernjs.dev/docs/start" className="card">
