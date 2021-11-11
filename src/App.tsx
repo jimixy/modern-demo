@@ -1,8 +1,11 @@
 import { Switch, Route } from '@modern-js/runtime/router';
+import { useModel, createStore, Provider } from '@modern-js/runtime/model';
 
 import { Button } from 'antd';
 import Todo from './Todo';
 import './App.css';
+
+const store = createStore();
 
 const getAvatar = (users: Array<{ name: string; email: string }>) =>
   users.map(user => ({
